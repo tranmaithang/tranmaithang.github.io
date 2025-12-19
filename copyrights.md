@@ -1,22 +1,16 @@
 ---
 layout: post
-title: Bản quyền - cộng tác
+title: Bản quyền & Cộng tác
 permalink: /copyrights/
 ---
 
-Toàn bộ nội dung trong bài, source code, và hình ảnh minh họa (trừ nội dung có trích dẫn) đều thuộc bản quyền của Vũ Hữu Tiệp.
+Mọi nội dung, mã nguồn và hình ảnh minh họa trên blog này (ngoại trừ các phần trích dẫn rõ nguồn gốc) đều thuộc quyền sở hữu trí tuệ của tác giả Trần Mai Thắng. Tôi rất hoan nghênh việc chia sẻ kiến thức đến cộng đồng, tuy nhiên, vui lòng tuân thủ các nguyên tắc sau:
 
-Tôi rất mong muốn kiến thức tôi viết trong blog này đến được với nhiều người. Tuy nhiên, tôi không ủng hộ bất kỳ một hình thức sao chép không trích nguồn nào. Mọi nguồn tin trích đăng bài viết cần nêu rõ tên blog ([Machine Learning cơ bản](https://tiepvupsu.github.io)), tên tác giả (Vũ Hữu Tiệp), và kèm link gốc của bài viết. **Các bài viết trích dẫn quá 25% toàn văn bất kỳ một post nào trong blog này là không được phép**, trừ trường hợp có sự đồng ý của tác giả. 
+* Trích dẫn: Mọi hình thức sao chép hoặc trích dẫn cần ghi rõ: tên blog ([Quantitative Finance cơ bản](https://tranmaithang.github.io)), tác giả (Trần Mai Thắng) và đính kèm đường dẫn gốc của bài viết.
 
-Cụ thể hơn:
+* Mục đích sử dụng: Chỉ chấp nhận việc chia sẻ vì mục đích phi lợi nhuận. Đối với các nhu cầu sử dụng thương mại hoặc có ý định chỉnh sửa, bổ sung nội dung gốc, vui lòng liên hệ trực tiếp.
 
-* Bạn có thể đăng lại bài viết hoặc một phần của bài viết. Khi bạn trích dẫn vui lòng ghi rõ nguồn, bao gồm liên kết (link) đến trang web này và ghi rõ tên tác giả Tiệp Vũ.
-
-* Các bài đăng lại phải là phi lợi nhuận. Nếu muốn đăng vì lợi nhuận xin hỏi tác giả trước.
-
-* Nếu bạn sửa chữa nội dung bài viết, bao gồm thêm, bớt hoặc viết tiếp xin liên hệ với tác giả.
-
-Mọi vấn đề liên quan đến việc sao chép, đăng tải, sử dụng bài viết, cũng như trao đổi, cộng tác, xin vui lòng liên hệ với tôi tại địa chỉ email: **vuhuutiep@gmail.com**.
+* Liên hệ: Mọi vấn đề về bản quyền và hợp tác, xin gửi về email: **tranmaithang@gmail.com**.
 
 Tôi xin chân thành cảm ơn!
 

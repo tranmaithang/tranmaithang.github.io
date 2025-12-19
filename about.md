@@ -2,49 +2,21 @@
 layout: post
 title: About
 permalink: /about/
-sc_project: 11387860
-sc_security: bf94eebb
+sc_project: 13193394
+sc_security: 05dd2ba6
 ---
+<!--get sc_project and sc_security from statcounter.com for tranmaithang.github.io -->
 
-Cảm ơn bạn đã ghé thăm blog của tôi. 
+Cảm ơn bạn đã ghé thăm blog cá nhân của tôi!
 
-Tôi là Vũ Hữu Tiệp, tốt nghiệp Tiến sĩ ngành Học Máy và Thị Giác Máy Tính (Machine Learning and Computer Vision) tại Đại học bang Pennsylvania (Pennsylvania State University), Hoa Kỳ. Hiện tại tôi đang là chuyên viên nghiên cứu ứng dụng Deep Learning vào việc phát triển xe tự hành cho một công ty khởi nghiệp tại Thung Lũng Silicon. Các thông tin khác về tôi có thể được tim thấy ở [website học thuật của tôi](http://www.personal.psu.edu/thv102/), hoặc [Linkedin của tôi](https://www.linkedin.com/in/tiephuuvu/). Tôi rất vui nếu bạn có thể giúp tôi 'endorse' một vài 'skills' mà bạn nghĩ rằng tôi có.
+Tôi là Trần Mai Thắng, tốt nghiệp Thạc sĩ chuyên ngành Tài chính tại Đại học Paris Dauphine (Université Paris Dauphine), Pháp. Hiện tại tôi đang làm phân tích định lượng (Xva Quantitative Analyst) cho một Ngân hàng Đầu tư tại Paris. Bạn có thể kết nối với tôi qua [Linkedin của tôi](https://www.linkedin.com/in/tranmaithang/).
 
-Tôi viết blog này với hai mục đích chính. Một là tổng hợp lại các kiến thức của bản thân về Machine Learning. Hai là tôi có mong muốn mang Machine Learning tới càng nhiều bạn đọc Việt Nam càng tốt, vì đây sẽ là một xu hướng được dự đoán là cực kỳ nổi bật trong những năm sắp tới.
+Tôi viết blog này với mục đích hệ thống lại các kiến thức của bản thân về Quantitative Finance, cũng như mong muốn mang Quantitative Finance tới nhiều bạn đọc Việt Nam.
 
-Khi chuẩn bị các bài viết, tôi sẽ giả định rằng bạn đọc có một chút kiến thức về Đại Số Tuyến Tính, Xác Suất Thống Kê và có kinh nghiệm về lập trình Python. Nếu bạn chưa có nhiều kinh nghiệm về các lĩnh vực này, đừng quá lo lắng vì mỗi bài sẽ chỉ sử dụng một vài kỹ thuật cơ bản. Tôi rất vui được trao đổi thêm với các bạn ở phần Comment cuối mỗi bài.
+Quantitative Finance là sự giao thoa giữa ba trụ cột: Toán học, Lập trình, lý thuyết Tài chính. Các bài viết tại blog sẽ phát huy tối đa hiệu quả nếu bạn đã quen thuộc với: Đại số Tuyến Tính, Xác Suất Thống Kê, Lập trình VBA Python C++, và các lý thuyết Tài chính. Dù bạn là một kỹ sư phần mềm muốn lấn sân sang tài chính, hay một chuyên viên tài chính muốn triển khai các mô hình tính toán định lượng, tôi luôn sẵn lòng đồng hành và thảo luận cùng bạn tại phần bình luận.
 
-**Nếu bạn muốn trích dẫn lại các bài viết trong blog, [vui lòng xem thông tin tại đây](/copyrights/).**
+Bạn đọc có thể đặt câu hỏi tại cuối bài viết, hoặc cùng tham gia thảo luận tại:
+[**Forum Quantitative Finance cơ bản**](https://www.facebook.com/groups/887175190659664/)
 
-Một lần nữa, tôi xin chân thành cảm ơn.
+Một lần nữa, tôi xin chân thành cảm ơn!
 
-
-
-
-
-<b>Các bạn có thể theo dõi Facebook Page tại:</b> <br>
-<div class="share-page">
-    <a href = "https://www.facebook.com/machinelearningbasicvn/" target="_blank" title="Follow us"><img src = "https://simplesharebuttons.com/images/somacro/facebook.png" width="50"></a>
-</div>
-
-<b>Và đặt các câu hỏi, cùng tham gia thảo luận tại:</b> <br>
-[**Forum Machine Learning cơ bản**](https://www.facebook.com/groups/257768141347267/)
-
-**Một vài reviews trên facebook Page:**
-
-[Bạn đọc cũng có thể xem các reviews khác và review cho blog tại đây.](https://www.facebook.com/pg/machinelearningbasicvn/reviews/)
-
-<div>
-<table width = "100%" style = "border: 0px solid white">
-
-    <tr >
-        <td width="40%" style = "border: 0px solid white" align = "center">
-        <a href = "https://www.facebook.com/pg/machinelearningbasicvn/reviews/"><img  style="display:block;" width = "100%" src = "/images/review.png"></a>
-         </td>
-        
-    </tr>
-</table>
-</div>
-
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>

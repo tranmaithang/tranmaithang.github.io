@@ -24,10 +24,9 @@ title: Categories
        <span style="float: right;">
           {{ post.date | date_to_string }}
         </span>
-        </div>
-        <br>
+      </div>
+      <br>
       <!-- </li> -->
-      <!-- </a> -->
       {% endfor %}
     </ul>
     {% endfor %}
