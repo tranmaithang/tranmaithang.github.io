@@ -1,17 +1,24 @@
 {% if page.comments != false %}
 <div id="disqus_thread"></div>
 <script type="text/javascript">
-  var disqus_shortname  = '{{ site.disqus_shortname }}';
-  var disqus_identifier = 'tiepvupsu.github.io' + '{{ page.url }}';
+  var disqus_config = function () {
+    this.page.url = '{{ site.url }}{{ page.url }}';
+    this.page.identifier = '{{ page.url }}';
+  };
 
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  (function () {
+    var d = document, s = d.createElement('script');
+    s.src = '//{{ site.disqus_shortname }}.disqus.com/embed.js';
+    s.async = true; // Ensures the page never freezes
+    s.setAttribute('data-timestamp', +new Date()); // Ensures data is fresh
+    (d.head || d.body).appendChild(s);
   })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+    Disqus.</a></noscript>
+
+<script id="dsq-count-scr" src="//{{ site.disqus_shortname }}.disqus.com/count.js" async></script>
 {% endif %}
 
-    <script id="dsq-count-scr" src="//tiepvu.disqus.com/count.js" async></script>
-
+<!-- site.url and site.disqus_shortname are defined in _config.yml -->

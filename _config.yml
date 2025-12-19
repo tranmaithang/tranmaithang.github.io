@@ -1,12 +1,12 @@
+#Design and Styling
 sass:
   style: :compressed  # Change to :expanded for debugging
 
-permalink: /:year/:month/:day/:title.html
-
-url: https://machinelearningcoban.com
+# Site identity
+url: https://tranmaithang.github.io
 baseurl: ""
 
-future: true
+# Workflow
 debug: false
 
 # Build settings
@@ -21,14 +21,12 @@ kramdown:
   syntax_highlighter: rouge
 
 # Disqus post comments
-disqus_shortname: tiepvu
+disqus_shortname: maithangt
 
 # number of posts per page. Should be a number such that total pages >= 5. Well, this 
 # is my choice, there is no specific reason for this.
 paginate: 10
 paginate_path: "/page:num/"
-
-# `gems: [jekyll-paginate]`
 
 gems:
   - jekyll-sitemap
