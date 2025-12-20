@@ -2,15 +2,18 @@
 <meta charset="utf-8" />
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-<title>Quantitative Finance cơ bản</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+
+<title>{% if page.title %}{{ page.title }} | {% endif %}Quantitative Finance cơ bản</title>
+
+<!-- Load JavaScript -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- defer for optimization -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+<!-- Load font Roboto for text and Fira+Sans for code, &display=swap for optimization -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500&display=swap" rel="stylesheet">
+
 
 <!-- Include CSS SCSS -->
 {% if layout.style.embedded %}
@@ -25,16 +28,16 @@
    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style/{{ layout.style.name }}.css" />
    <link rel="stylesheet" type="text/css" href="/css/monokai.css" />
    <link rel="stylesheet" type="text/css" href="/css/mystyle.css" />
-   <!-- <link rel="stylesheet" type="text/css" href="/css/github.css" /> -->
 {% endif %}
 
-<title>{{ page.title }}</title>
-<!-- {% include scripts.html %} -->
 
+<!-- User Experience, SEO, Identity -->
 <link rel="icon" type="image/png" href="/assets/images/logo/Gemini_faviconQF.png" sizes="32x32">
 <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
 <meta name="author" content="Tran Mai Thang" />
 
+
+<!-- Metadata for Fanpage và Group Facebook -->
 {% if layout.metadata %}
    <meta property="og:title" content="{{ page.title }}" />
    <meta property="og:site_name" content="Tran Mai Thang's blog" />
@@ -58,28 +61,12 @@
 <link rel="alternate" type="application/atom+xml" title="Tran Mai Thang's blog - Atom feed" href="{{ site.baseurl }}/feed.xml" />
 
 
-
-<!-- Google Analytics -->
-{% if jekyll.environment == 'production' %}
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-89509207-1', 'auto');
-// ga('send', 'pageview');
-ga('send', 'pageview', {
-'page': '{{ page.url }}',
-'title': '{{ page.title | replace: "'", "\\'" }}'
-});
-</script>
-{% endif %}
-
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KTCD8BX');</script>
+})(window,document,'script','dataLayer','GTM-MSMGWRM9');</script>
 <!-- End Google Tag Manager -->
+
 </head>
