@@ -30,6 +30,8 @@ style:
 {% endif %}
 {% if page.date %}
 <span class="post-date" style="color: gray; font-style: italic;">{{ page.date | date: "%b %-d, %Y" }}</span>
+<!-- reading time -->
+{% include reading-time.html %}
 <!-- Main content -->
 <br>
 <br>
